@@ -11,10 +11,10 @@ export default function Projects() {
                 {Object.keys(webImg).map((key) => (
                     <div
                         key={key}
-                        className="w-[270px] h-fit flex items-center flex-col bg-sky-100"
+                        className="w-[270px] h-fit flex items-center flex-col bg-sky-100 border border-gray-900"
                     >
                         <img
-                            src={`../src/assets/${webImg[key].img}`}
+                            src={`../assets/${webImg[key].img}`}
                             alt=""
                             className="h-[135px]"
                         />
@@ -26,7 +26,7 @@ export default function Projects() {
                                 target="_blank"
                             >
                                 <img
-                                    src="/src/assets/logo-github-filled.svg"
+                                    src="../assets/logo-github-filled.svg"
                                     className="w-[24px]"
                                     alt=""
                                 />
@@ -37,7 +37,7 @@ export default function Projects() {
                                 target="_blank"
                             >
                                 <img
-                                    src="src/assets/web.svg"
+                                    src="../assets/web.svg"
                                     className="w-[24px]"
                                     alt=""
                                 />
