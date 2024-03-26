@@ -14,7 +14,7 @@ export default function Projects() {
                         className="w-[270px] h-fit flex items-center flex-col border border-gray-900"
                     >
                         <img
-                            src={`src/assets/websites/${webImg[key].img}`}
+                            src={`../assets/websites/${webImg[key].img}`}
                             alt=""
                             className="h-[135px]"
                         />
@@ -26,7 +26,7 @@ export default function Projects() {
                                 target="_blank"
                             >
                                 <img
-                                    src="src/assets/logo-github-filled.svg"
+                                    src="../src/assets/logo-github-filled.svg"
                                     className="w-[24px]"
                                     alt=""
                                 />
