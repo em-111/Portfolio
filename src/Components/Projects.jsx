@@ -14,7 +14,7 @@ export default function Projects() {
                         className="w-[270px] h-fit flex items-center flex-col border border-gray-900"
                     >
                         <img
-                            src={`src/assets/${webImg[key].img}`}
+                            src={`src/assets/websites/${webImg[key].img}`}
                             alt=""
                             className="h-[135px]"
                         />
