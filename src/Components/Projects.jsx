@@ -9,12 +9,13 @@ export default function Projects() {
 
             <div className="flex justify-center flex-wrap gap-4">
                 {Object.keys(webImg).map((key) => (
+                    console.log(webImg[key].url),
                     <div
                         key={key}
                         className="w-[270px] h-fit flex items-center flex-col border border-gray-900"
                     >
                         <img
-                            src={`../assets/websites/${webImg[key].img}`}
+                            src={`../src/assets/websites/${webImg[key].img}`}
                             alt=""
                             className="h-[135px]"
                         />
