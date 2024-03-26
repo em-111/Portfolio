@@ -8,7 +8,7 @@ export default function Education() {
                     <p className="font-bold">UBT</p>
                     <p>Computer Science</p>
                 </div>
-                <div>
+                <div className="text-right">
                     <p>09/2019 - Present</p>
                     <p>Prishtinë, Kosovë</p>
                 </div>
