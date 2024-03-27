@@ -1,8 +1,8 @@
 export default function Profile() {
     return (
         <div className="grid gap-5">
-            <p className="font-cardo text-5xl sm:text-7xl">Endrit Mehaj</p>
-            <div className="flex gap-10">
+            <p className="font-cardo text-5xl sm:text-7xl 3xl:text-9xl">Endrit Mehaj</p>
+            <div className="flex gap-10 3xl:text-2xl">
                 <a
                     href="mailto:endritmehaj33@gmail.com"
                     className="font-bold underline"
@@ -24,7 +24,7 @@ export default function Profile() {
                     LinkedIn
                 </a>
             </div>
-            <p className="w-[95%] sm:w-[590px]">
+            <p className="w-[95%] sm:w-[590px] 3xl:text-2xl 3xl:w-[790px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates temporibus eum porro laborum unde dolore atque fuga
                 culpa distinctio, praesentium magni quae. Vero unde voluptatum

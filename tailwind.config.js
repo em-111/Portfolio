@@ -6,6 +6,9 @@ export default {
             fontFamily: {
                 cardo: "Cardo, serif",
             },
+            screens: {
+                "3xl": "2560px",
+            },
         },
     },
     plugins: [],

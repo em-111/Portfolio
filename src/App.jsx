@@ -6,7 +6,7 @@ import Projects from "./Components/Projects";
 
 function App() {
     return (
-        <div className="w-[95%] sm:w-[90%]  my-20 grid gap-16">
+        <div className="w-[95%] sm:w-[90%]  my-32 grid gap-16 3xl:w-[2280px]">
             <Profile />
             <Education />
             <Work />

@@ -1,9 +1,9 @@
-export default function Education() {
+function Education() {
     return (
         <div>
-            <p className="font-cardo font-bold text-xl">Education</p>
+            <p className="font-cardo font-bold text-xl 3xl:text-3xl">Education</p>
             <hr className="h-1 my-2 bg-gray-200 border dark:bg-gray-700"></hr>
-            <div className="flex justify-between text-sm sm:text-base">
+            <div className="flex justify-between text-sm sm:text-base 3xl:text-xl">
                 <div>
                     <p className="font-bold">UBT</p>
                     <p>Computer Science</p>
@@ -16,3 +16,5 @@ export default function Education() {
         </div>
     );
 }
+
+export default Education;
